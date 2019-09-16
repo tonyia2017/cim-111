@@ -1,8 +1,25 @@
-h1 {
+html,body {
     font-size: 40 px:
+    background-color: ##556b2f;
+    color: #556b2f;
+
+}
+
+section#centered, #centered {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid#f9423a;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
 }
 
 p{
-  font-size: 150%
+  font-size: 150%;
+  font-weight: 300;
+  text-align: center;
 }
 color:
