@@ -1,17 +1,23 @@
-head {
-  font-size: 225%}
-content {
-  250%
+h1 {
+  font-size: 300%;
+  text-align: center;
 }
 
 figure, table {
   text-align: center;
+  width: 600px;
+  margin: 0 auto;
+
 }
 
-a{
-  remove-hyperlink-underline.php style="text-decoration: none;" Remove Hyperlink Underline
+table a{ text-decoration: none;
 
-p1{
+}
+
+email. ph{
+  remove-hyperlink-underline.php style="text-decoration: none;" Remove Hyperlink Underline}
+
+p{
   text-align: center;
 }
 
