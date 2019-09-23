@@ -1,1 +1,80 @@
-h1 {background-color: red}
+head {
+  font-size: 225%}
+content {
+  250%
+}
+
+figure, table {
+  text-align: center;
+}
+
+a{
+  remove-hyperlink-underline.php style="text-decoration: none;" Remove Hyperlink Underline
+
+p1{
+  text-align: center;
+}
+
+th {text-align: left;}
+
+table {
+  margin-left: 300px;
+ font-size: 200%;
+}
+
+
+
+h1,h2{
+  font-size: 200%
+}
+p{
+  text-align: center;
+}
+
+section#centered, #centered {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid#black;
+  text-align: center;
+
+}
+h2,h3,h4 { text-align: center;}
+
+h3 {font-size:300% px;
+}
+
+h#id {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+p{
+  font-size: 150%;
+  font-weight: 300;
+
+}
+
+table#awardlist {
+  font-size: 200%
+}
+
+ul{ font-size: 150%}
+
+address {
+text-align: center;
+}
+
+a:visited {
+  color: black
+}
+
+a:hover{
+  background-color: yellow
+}
