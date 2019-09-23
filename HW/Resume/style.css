@@ -1,6 +1,7 @@
 h1 {
   font-size: 300%;
   text-align: center;
+  color: red;
 }
 
 figure, table {
@@ -11,11 +12,10 @@ figure, table {
 }
 
 table a{ text-decoration: none;
-
+color: black;
 }
 
-email. ph{
-  remove-hyperlink-underline.php style="text-decoration: none;" Remove Hyperlink Underline}
+
 
 p{
   text-align: center;
@@ -49,14 +49,9 @@ h2,h3,h4 { text-align: center;}
 h3 {font-size:300% px;
 }
 
-h#id {
-  font-size: 80px;
-  font-weight: 300;
-}
-
 h1 {
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 900;
     text-align: center;
 }
 
