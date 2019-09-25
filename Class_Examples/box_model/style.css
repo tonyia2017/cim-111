@@ -1,0 +1,17 @@
+html {
+    font-size: 21px;
+    line-height: 1.7;
+    font-family: cursive;
+}
+
+body {
+    background-color: pink;
+}
+
+main {
+    background-color: yellow;
+}
+
+h1 {
+    background-color: turquoise;
+}
