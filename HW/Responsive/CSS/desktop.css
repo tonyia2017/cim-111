@@ -1,0 +1,83 @@
+body {
+    background-color: goldenrod;
+}
+
+.intro {
+    text-align: center;
+    font-size: 27px;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+img { height: 200px;
+    width: 200px;
+
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas:
+        "yellow red"
+        "blue green"
+        "purple pink";
+
+    text-align: center;
+}
+
+.grid_container1, .grid_container2, .grid_container3, .grid_container4, .grid_container5, .grid_container6{
+    display: grid;
+    grid-template-areas:
+        "song artist album time"
+        ;
+    text-align: center;
+    border: 2px solid black;
+}
+
+nav {
+    display: grid;
+    grid-template-areas:
+        "R&B Hip-Hop Rap Pop";
+    text-align: center;
+    border: 2px solid black
+
+}
+
+.yellow { grid-area: yellow;
+    background-color: yellow;
+
+}
+
+.red {grid-area: red;
+    background-color: red;
+
+}
+
+.blue { grid-area: blue;
+    background-color: cyan;
+
+}
+
+.green { grid-area: green;
+    background-color: green;
+
+}
+
+.purple { grid-area: purple;
+    background-color: purple;
+
+}
+
+.pink {
+    grid-area: pink;
+    background-color: pink;
+}
+
+#title {
+    text-align: center;
+}
+
+.grid_container7 {
+    
+}
