@@ -1,5 +1,5 @@
 body {
-    background-color: goldenrod;
+    background-color: lime;
 }
 
 .intro {
@@ -7,40 +7,77 @@ body {
     font-size: 27px;
 }
 h1 {
-    color: white;
-    font-size: 60px;
+    color: black;
+    font-size: 100px;
 }
 
-img { height: 200px;
-    width: 200px;
-
+nav a {
+    display: inline-block;
 }
+
+.daddy { height: 750px;
+    width: 1000px;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
 
 .grid_container{
     display: grid;
     grid-template-areas:
-        "yellow red"
-        "blue green"
-        "purple pink";
-
+        "black purple"
+        "green yellow";
     text-align: center;
+    margin: 50px;
 }
 
-.grid_container1, .grid_container2, .grid_container3, .grid_container4, .grid_container5, .grid_container6{
+.grid_container2{
     display: grid;
     grid-template-areas:
-        "song artist album time"
-        ;
-    text-align: center;
+        "song time";
     border: 2px solid black;
-}
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+    height: 525px;
+    width: 800px;
+ }
 
-nav {
+.grid_container3 {
     display: grid;
     grid-template-areas:
-        "R&B Hip-Hop Rap Pop";
+    "nineteen ATL"
+    "one tampa"
+    "two orlando"
+    "three miami";
+    border: 2px solid black;
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
-    border: 2px solid black
+    height: 525px;
+    width: 800px;
+    grid-gap: 10px;
+    grid-row-gap:5px;
+}
+
+.grid_container5{
+    display: grid;
+    grid-template-areas:
+    "imup ss2"
+    "slimeseason barter6";
+    justify-items: center;
+
+}
+
+.black { grid-area: black;
+    background-color: white;
+
+}
+
+.purple {grid-area: purple;
+    background-color: purple;
 
 }
 
@@ -49,35 +86,82 @@ nav {
 
 }
 
-.red {grid-area: red;
-    background-color: red;
-
-}
-
-.blue { grid-area: blue;
-    background-color: cyan;
-
-}
-
 .green { grid-area: green;
     background-color: green;
 
 }
 
-.purple { grid-area: purple;
-    background-color: purple;
-
+h2 {
+    font-size: 30px;
 }
 
-.pink {
-    grid-area: pink;
-    background-color: pink;
+.tour{
+    text-align: center;
+    font-size: 36px;
+}
+
+.top5{
+    text-align: center;
+    font-size: 36px;
 }
 
 #title {
     text-align: center;
 }
 
-.grid_container7 {
-    
+img {
+    height: 475px;
+    width: 475px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.tweet {
+    height: 300px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: 300px;
+}
+#Thugger {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+#Jefferyy {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+#Slime {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+.youout {
+    font-size: 25px;
+}
+
+.er {
+    font-size: 25px;
+}
+
+.jeff {
+    font-size: 25px;
+}
+
+.twit {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.grid0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
