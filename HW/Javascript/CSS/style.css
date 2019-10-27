@@ -1,0 +1,43 @@
+body {
+  background-color: teal;
+  text-align: center;
+}
+
+.mountain {
+  height: 400px;
+  width: 600px;
+}
+
+.tips {
+  text-align: left;
+}
+
+.scared {
+  height: 400px;
+  width: 600px;
+}
+
+.sheep {
+  height: 400px;
+  width: 600px;
+}
+
+.kayak {
+  height: 400px;
+  width: 600px;
+}
+
+.glow {
+  height: 400px;
+  width: 600px;
+}
+
+.hobbit {
+  height: 400px;
+  width: 600px;
+}
+
+.water {
+  height: 400px;
+  width: 600px;
+}
