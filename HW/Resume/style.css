@@ -2,81 +2,94 @@ h1 {
   font-size: 300%;
   text-align: center;
   color: red;
-  font-family: 'Mansalva', cursive;
+  font-family: "Mansalva", cursive;
 }
 
-figure, table {
+figure,
+table {
   text-align: center;
   width: 600px;
   margin: 0 auto;
-
 }
 
-table a{ text-decoration: none;
-color: black;
+table a {
+  text-decoration: none;
+  color: black;
 }
 
-
-
-p{
+p {
   text-align: center;
 }
 
-th {text-align: left;}
+th {
+  text-align: left;
+}
 
 table {
   margin-left: 300px;
- font-size: 200%;
+  font-size: 200%;
 }
 
-
-
-h1,h2{
-  font-size: 200%
+h1,
+h2 {
+  font-size: 200%;
 }
-p{
+p {
   text-align: center;
 }
 
-section#centered, #centered {
+section#centered,
+#centered {
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid#black;
+  border: 1px solid black;
   text-align: center;
-
 }
-h2,h3,h4 { text-align: center;}
+h2,
+h3,
+h4 {
+  text-align: center;
+}
 
-h3 {font-size:300% px;
+h3 {
+  font-size: 300px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 900;
-    text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
 }
 
-
-p{
+p {
   font-size: 150%;
   font-weight: 300;
-
 }
 
 table#awardlist {
-  font-size: 200%
+  font-size: 200%;
 }
 
-ul{ font-size: 150%}
+ul {
+  font-size: 150%;
+}
 
 address {
-text-align: center;
+  text-align: center;
 }
 
 a:visited {
-  color: black
+  color: black;
 }
 
-a:hover{
-  background-color: yellow
+a:hover {
+  background-color: yellow;
+}
+
+.workexperience {
+  text-align: center;
+}
+
+.stuff {
+  text-align: center;
 }
