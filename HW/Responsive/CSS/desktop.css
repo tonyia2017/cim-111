@@ -1,167 +1,150 @@
 body {
-    background-color: lime;
+  background-color: lime;
 }
 
 .intro {
-    text-align: center;
-    font-size: 27px;
+  text-align: center;
+  font-size: 27px;
 }
 h1 {
-    color: black;
-    font-size: 100px;
+  color: black;
+  font-size: 100px;
 }
 
 nav a {
-    display: inline-block;
+  display: inline-block;
 }
 
-.daddy { height: 750px;
-    width: 1000px;
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
+.daddy {
+  height: 750px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.grid_container{
-    display: grid;
-    grid-template-areas:
-        "black purple"
-        "green yellow";
-    text-align: center;
-    margin: 50px;
+.grid_container {
+  display: grid;
+  grid-template-areas:
+    "black purple"
+    "green yellow";
+  text-align: center;
+  margin: 50px;
 }
 
-.grid_container2{
-    display: grid;
-    grid-template-areas:
-        "song time";
-    border: 2px solid black;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    margin: 25px;
-    height: 525px;
-    width: 800px;
- }
+.grid_container2 {
+  display: grid;
+  grid-template-areas: "song time";
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px;
+  height: 525px;
+  width: 800px;
+}
 
 .grid_container3 {
-    display: grid;
-    grid-template-areas:
+  display: grid;
+  grid-template-areas:
     "nineteen ATL"
     "one tampa"
     "two orlando"
     "three miami";
-    border: 2px solid black;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    height: 525px;
-    width: 800px;
-    grid-gap: 10px;
-    grid-row-gap:5px;
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  height: 525px;
+  width: 800px;
+  grid-gap: 10px;
+  grid-row-gap: 5px;
 }
 
-.grid_container5{
-    display: grid;
-    grid-template-areas:
+#grid_container5 {
+  display: grid;
+  grid-template-areas:
     "imup ss2"
     "slimeseason barter6";
-    justify-items: center;
-
+  justify-items: center;
 }
 
-.black { grid-area: black;
-    background-color: white;
-
+.black {
+  grid-area: black;
+  background-color: white;
 }
 
-.purple {grid-area: purple;
-    background-color: purple;
-
+.purple {
+  grid-area: purple;
+  background-color: purple;
 }
 
-.yellow { grid-area: yellow;
-    background-color: yellow;
-
+#yellow {
+  grid-area: yellow;
+  background-color: yellow;
 }
 
-.green { grid-area: green;
-    background-color: green;
-
+.green {
+  grid-area: green;
+  background-color: green;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-.tour{
-    text-align: center;
-    font-size: 36px;
-}
-
-.top5{
-    text-align: center;
-    font-size: 36px;
+.tour {
+  text-align: center;
+  font-size: 36px;
 }
 
 #title {
-    text-align: center;
+  text-align: center;
 }
 
 img {
-    height: 475px;
-    width: 475px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-
+  height: 475px;
+  width: 475px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .tweet {
-    height: 300px;
-    width: 900px;
-    margin-right: auto;
-    margin-left: 300px;
+  height: 300px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: 300px;
 }
 #Thugger {
-    font-size: 40px;
-    background-color: black;
-    color: white;
+  font-size: 40px;
+  background-color: black;
+  color: white;
 }
 #Jefferyy {
-    font-size: 40px;
-    background-color: black;
-    color: white;
+  font-size: 40px;
+  background-color: black;
+  color: white;
 }
 
 #Slime {
-    font-size: 40px;
-    background-color: black;
-    color: white;
+  font-size: 40px;
+  background-color: black;
+  color: white;
 }
 
 .youout {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-.er {
-    font-size: 25px;
+#twit {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
-
-.jeff {
-    font-size: 25px;
-}
-
-.twit {
-    font-size: 40px;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 
 .grid0 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
