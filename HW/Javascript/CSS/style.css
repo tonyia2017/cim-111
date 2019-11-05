@@ -1,43 +1,29 @@
 body {
-  background-color: teal;
+  background-color: white;
   text-align: center;
+  font-family: "Vibur";
 }
 
-.mountain {
-  height: 400px;
-  width: 600px;
+h1 {
+  font-size: 50px;
+  background-color: pink;
+  color: white;
 }
 
-.tips {
-  text-align: left;
-}
-
-.scared {
-  height: 400px;
-  width: 600px;
-}
-
-.sheep {
-  height: 400px;
-  width: 600px;
-}
-
-.kayak {
-  height: 400px;
-  width: 600px;
-}
-
-.glow {
-  height: 400px;
-  width: 600px;
-}
-
-.hobbit {
-  height: 400px;
-  width: 600px;
-}
-
+.mountain,
+.scared,
+.sheep,
+.kayak,
+.glow,
+.hobbit,
 .water {
   height: 400px;
   width: 600px;
+}
+#tips {
+  text-align: center;
+}
+
+#top {
+  text-align: left;
 }
