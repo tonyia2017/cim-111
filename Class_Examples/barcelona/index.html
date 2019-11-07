@@ -5,6 +5,11 @@
    <meta charset="utf-8">
    <title>Visiting Barcelona</title>
    <link rel="stylesheet" href="css/style.css">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </head>
 
 <body>
@@ -30,15 +35,22 @@
       </section>
 
       <button type="button" name="button">Hide picture</button>
-      <img src="images/disseny.jpg" alt="" id="main_pic" class="image">
+      <a data-fancybox="gallery" href="images/disseny.jpg" alt="" id="main_pic" class="image">
+         <script src="js/jquery.lettering-0.6.1.min.js">
+
+         </script>
    </main>
 
-   <!-- Scripts -->
-   < script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-      < /script> < script type="text/javascript">
-         $(document).ready(function() {
-         $("#tips").click(function() {
-         $("#tips").css("font-size", "60px");
-         });
+   $(document).ready(function() {
+   $("bcn").lettering();
+   });
 
-         < /script> </script> </body> </html>
+   <!-- Scripts -->
+   <!-- < script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> -->
+   < /script> < script type="text/javascript">
+      $(document).ready(function() {
+      $("#tips").click(function() {
+      $("#tips").css("font-size", "60px");
+      });
+
+      < /script> </script> </body> </html>

@@ -9,8 +9,9 @@
 
 	<h1>New Zealand
 	</h1>
-	<img class="mountain" src="images/mountain.jpeg" alt="bunjee">
-	<p class="intro">New Zealand is an island country off of the eastern coast of Australia. It is comprised of hundreds of smaller islands that have been grouped into two main islands, the North and South Islands. The North Island is home to
+	<img id="mtn" src="images/mountain.jpeg" alt="mtn">
+	<p class="intro">New Zealand is an island country off of the eastern coast of Australia. It is comprised of hundreds of
+		smaller islands that have been grouped into two main islands, the North and South Islands. The North Island is home to
 		Auckland, New Zealand's most populus city, with over 1.6 million people. The South Island is known for its mountains, the Southern Alps, which run along the entire length of the island. Its glaciers, large lakes, and beautiful mountains
 		attracts many tourists for activities like bungee jumping, four-wheeling, and skiing.
 	</p>
@@ -27,7 +28,8 @@
 	<p class="passport">Applying for a passport if you do not already have one, is the first step to visiting New Zealand. Because passport processing usually takes between six to eight weeks, it is imperative to start the process as soon as
 		possible. During peak travel times, this wait period can be even longer so it is best to apply for your passport as soon as you decide that you want to travel. You can apply online at the US Department of State website. </p>
 
-	<p class="research">Research is a very important part of traveling. The world has so much to offer, and if you don't take the time to find out what these things are beforehand, you will miss so many great opprtunities. New Zealand is thousands of
+	<p class="research">Research is a very important part of traveling. The world has so much to offer, and if you don't take the time to find out what these things are beforehand, you will miss so many great opprtunities. New Zealand is
+		thousands of
 		miles away! You can't just decide to up and leave whenever you want, so you should make sure that you make the most out of the time you do have by doing all the work beforehand. </p>
 
 	<p class="plan">Planning is a necessity for everything in life,but especially for traveling. New Zealand is becoming more popular as a tourist destination, which means their flights and hotels are generally full during peak seasons. Specific
@@ -37,21 +39,35 @@
 
 	<p class="budget">
 		As a general rule of thumb, it is always cheaper to book in advance than it is to book last minute. For instance, a flight from Miami to Auckland runs about $1500 on average, but when it is bought less than a month before, it can be as
-		expensive as $5,000! No need to pay more for things that a little planning and preparation can resolve! It is vital to make a budget before you purchase anything for your trip. New Zealand is a beautiful country that has so many things to do
+		expensive as $5,000! No need to pay more for things that a little planning and preparation can resolve! It is vital to make a budget before you purchase anything for your trip. New Zealand is a beautiful country that has so many things to
+		do
 		and so much to see. Plan to spend around a total of $5,000 to be safe. The most expensive part is just getting there; the flights range from 16 to 22 hours and spans over 2,000 miles. New Zealand's currency is about 3/4 of the US dollar,
-		which is extremely convenient, but in urban areas with more tourism, the prices are boosted to accommodate the difference. As long as you know how much you want to spend and try your absolute best to stick to that number, you will be fine.
+		which is extremely convenient, but in urban areas with more tourism, the prices are boosted to accommodate the difference. As long as you know how much you want to spend and try your absolute best to stick to that number, you will be
+		fine.
 	</p>
-	<p class="fun">While all of the previous steps are important, their importance is based on achieving one goal: having fun! New Zealand is one of the most beautiful places on Earth. Its bright blue water, gorgeous beaches, snow-capped mountains,
-		and rich cultural history make it a place like no other. It is imperative that your time here is indicative of the place itself: AMAZING! So sit back and relax on the long plane ride over because you won't be relaxing the rest of the trip!
+	<p class="fun">While all of the previous steps are important, their importance is based on achieving one goal: having fun! New Zealand is one of the most beautiful places on Earth. Its bright blue water, gorgeous beaches, snow-capped
+		mountains,
+		and rich cultural history make it a place like no other. It is imperative that your time here is indicative of the place itself: AMAZING! So sit back and relax on the long plane ride over because you won't be relaxing the rest of the
+		trip!
 	</p>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-		< /script> < script type="text/javascript
-		">
+	</script>
+	<script type="text/javascript">
 		var tipsClicked = 0;
 		$(document).ready(function() {
 			$("#tips").click(function() {
 				$("#tips").css("font-size", "60px");
 			});
+			$("h1").mouseover(function() {
+				$("h1").html("Hobbitan");
+			});
+			$("h1").mouseleave(function() {
+				$("h1").html("New Zealand");
+			});
+			$("#mtn").click(function() {
+				$("#mtn").hide();
+			});
+
 		});
 
 	</script>

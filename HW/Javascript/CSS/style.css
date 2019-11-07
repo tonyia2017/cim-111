@@ -20,10 +20,15 @@ h1 {
   height: 400px;
   width: 600px;
 }
+#mtn {
+  height: 400px;
+  width: 600px;
+}
 #tips {
   text-align: center;
 }
 
 #top {
   text-align: left;
+  font-size: 30px;
 }
