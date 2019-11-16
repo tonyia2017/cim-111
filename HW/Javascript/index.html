@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="CSS/style.css">
-<link rel="javascript" href="/css/script.js">
-<meta name="New Zealand" content="take a trip">
-<meta charset="utf-8">
+
+<head>
+	<title>New Zealand</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<meta name="description" content="take a trip">
+	<meta charset="utf-8">
+</head>
 
 <body>
+	<header>
+		<h1>New Zealand
+		</h1>
+	</header>
 
-	<h1>New Zealand
-	</h1>
-	<a data-fancybox="gallery" href="Images/mountain.jpeg"><img id="mtn" src="Images/mountain.jpeg" alt="mtn"></a>
+	<div class="grid_container1">
+		<section id="tonyia">
+			<a data-fancybox="gallery" href="Images/tonyia.jpeg"><img id="tonyia" src="Images/tonyia.jpeg"></a></section>
+		<section id="mtn">
+			<a data-fancybox="gallery" href="Images/mountain.jpeg"><img id="mtn" src="Images/mountain.jpeg"></a>
+		</section>
+		<section id="snow">
+			<a data-fancybox="gallery" href="Images/snow.jpg"><img id="snow" src="Images/snow.jpg"></a>
+		</section>
+	</div>
+
 
 	<p class="intro">New Zealand is an island country off of the eastern coast of Australia. It is comprised of hundreds of
 		smaller islands that have been grouped into two main islands, the North and South Islands. The North Island is home to
@@ -56,7 +71,14 @@
 	</script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="CSS/script.js" type="text/javascript">
+	</script>
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="/path/to/masonry.pkgd.min.js"></script>
 
 	<script type="text/javascript">
 		var tipsClicked = 0;
@@ -70,21 +92,35 @@
 			$("h1").mouseleave(function() {
 				$("h1").html("New Zealand");
 			});
-			$("#mtn").click(function() {
-				$("#mtn").hide();
+
+			$("grid").masonry(function() {
+					$("grid").itemSelector
+				}
+				// options
+				itemSelector: '.grid-item',
+				columnWidth: 200
 			});
 
 		});
 
 	</script>
-	<img class="water" src="Images/waterfall.jpg" alt="water">
-	<img class="scared" src="Images/scared.jpg" alt="scared">
-	<img class="sheep" src="Images/sheep.jpeg" alt="sheep">
-	<img class="kayak" src="Images/kayak.jpeg" alt="kayak">
-	<img class="hobbit" src="Images/hobbit.jpg" alt="hobbit">
-	<img class="glow" src="Images/glow.jpg" alt="glo">
-	<img class="water" src="Images/waterfall.jpg" alt="water">
+
+	<div class="grid">
+		<div class="water">
+			<img class="water" src="Images/waterfall.jpg" </div> <div class="scared"> <img src="Images/scared.jpg" alt="scared"></div>
+		<div class="sheep">
+			<div class="sheep"><img class="sheep" src="Images/sheep.jpeg" alt="sheep"></div>
+			<div class="kk">
+				<div class="kayak"><img class="kayak" src="Images/kayak.jpeg" alt="kayak">
+				</div>
+				<div class="hobbit"><img class="hobbit" src="Images/hobbit.jpg" alt="hobbit">
+				</div>
+				<div class="hobbit"><img class="hobbit" src="Images/hobbit.jpg" alt="hobbit"></div>
+				<div class="glow"><img class="glow" src="Images/glow.jpg" alt="glo"></div>
+				<div class="water"><img class="water" src="Images/waterfall.jpg" alt="water"></div>
+			</div>
 
 </body>
+
 
 </html>

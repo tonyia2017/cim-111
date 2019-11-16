@@ -1,16 +1,16 @@
 body {
-  background-color: white;
+  background-color: #b4efff;
   text-align: center;
-  font-family: "Vibur";
+  color: black;
 }
 
 h1 {
   font-size: 50px;
   background-color: pink;
   color: white;
+  font-family: "Vibur";
 }
 
-.mountain,
 .scared,
 .sheep,
 .kayak,
@@ -21,14 +21,34 @@ h1 {
   width: 600px;
 }
 #mtn {
-  height: 400px;
-  width: 600px;
+  height: 250px;
+  width: 400px;
 }
 #tips {
   text-align: center;
+  font-family: "Vibur";
 }
 
 #top {
   text-align: left;
   font-size: 30px;
+  font-family: "Vibur";
+}
+.grid_container1 {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "snow mtn tonyia";
+}
+
+#tonyia,
+#snow,
+#mtn {
+  align-items: center;
+}
+#tonyia,
+#snow {
+  height: 150px;
+  width: 250px;
+  margin-top: 25px;
 }
