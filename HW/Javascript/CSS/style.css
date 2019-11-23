@@ -1,9 +1,14 @@
 body {
   background-color: #b4efff;
-  text-align: center;
   color: black;
 }
+#zeal {
+  text-align: center;
+}
 
+.intro {
+  text-align: center;
+}
 h1 {
   font-size: 50px;
   background-color: pink;
