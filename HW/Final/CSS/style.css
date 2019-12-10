@@ -4,10 +4,22 @@ body {
   margin-left: 15%;
   margin-right: 15%;
 }
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  background-color: red;
+}
 h1 {
   text-align: center;
   font-family: "Dirty Ego";
   font-size: 200px;
+}
+#aus {
+  height: 300px;
+  width: 200px;
 }
 #threess {
   height: 200px;
@@ -23,39 +35,45 @@ h1 {
 }
 
 .grid_categories {
-  display: grid;
-  grid-template-areas:
-    "w ."
-    ". m"
-    "j ."
-    ". k";
   text-align: center;
   margin: 50px;
-}
-p {
-  margin-left: 270px;
-  text-align: left;
+  font-size: 30px;
 }
 
-.grid_pics {
-  display: grid;
-  grid-template-areas: "austin nails e";
+p {
   text-align: center;
+  margin-top: -90px;
+  font-family: "Aladin", cursive;
+  font-size: 25px;
+  font-weight: lighter;
 }
+#grid_menu {
+  display: grid;
+  grid-template-areas:
+    "austin mens"
+    "womens easter"
+    "nails jewelry"
+    "kicks travis";
+  align-items: center;
+  margin-top: 0%;
+}
+
 .sit {
   height: 200px;
   width: 200px;
   margin-top: 40px;
 }
-#austin {
-  height: 200px;
-  width: 200px;
+#austin,
+#easter {
+  height: 500px;
+  width: 400px;
   margin-top: 30px;
   align-items: center;
 }
 .nails {
-  height: 310px;
+  height: 400px;
   width: 300px;
+  margin-bottom: 50%;
 }
  {
   height: 200px;
@@ -64,6 +82,12 @@ p {
 }
 #travis,
 #pink {
-  height: 250px;
-  width: 300px;
+  height: 220px;
+  width: 350px;
+}
+.m,
+.w,
+#jewelry,
+#kicks {
+  font-size: 50px;
 }

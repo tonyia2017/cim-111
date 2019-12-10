@@ -1,8 +1,76 @@
 body {
   background-color: #a9a9a9;
+  width: 600px;
+  margin: 0 20%;
+  text-align: center;
 }
 h1 {
   text-align: center;
+
   font-family: "Dirty Ego";
   font-size: 100px;
+}
+
+.back {
+  text-align: left;
+}
+
+.back a {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
+#tally {
+  height: 500px;
+  width: 400px;
+  margin-top: -30%;
+  margin-left: 10%;
+  align-items: center;
+}
+#zamundaa {
+  height: 300px;
+}
+#zara {
+  height: 550px;
+  width: 350px;
+  /* margin-left: -40%; */
+}
+#pumas {
+  height: 200px;
+  width: 350px;
+}
+#grid_stores {
+  display: grid;
+  grid-template-areas:
+    "pumas zara"
+    "zamundaa zara";
+  align-items: top;
+}
+
+.pumas {
+  grid-area: pumas;
+}
+.zara {
+  grid-area: zara;
+}
+,
+.zamundaa {
+  grid-area: zamundaa;
+  margin: -10px;
+}
+#mercy {
+  height: 500px;
+  width: 300px;
+}
+#grid_m {
+  display: grid;
+  grid-template-areas:
+    "mercy"
+    "click";
+}
+#click {
+  height: 300px;
+  width: 500px;
+  text-align: top;
+  margin-top: -100px;
 }

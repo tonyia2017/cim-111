@@ -1,0 +1,48 @@
+body {
+  background-color: #a9a9a9;
+  width: 800px;
+  margin: auto;
+}
+a {
+  font-size: 26px;
+}
+h1 {
+  text-align: center;
+  font-family: "Dirty Ego";
+  font-size: 100px;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
+#merc {
+  height: 200px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: -90px;
+}
+#lv {
+  height: 300px;
+  width: 350px;
+  text-align: center;
+}
+#rolex {
+  height: 300px;
+  width: 330px;
+}
+#duffle {
+  height: 300px;
+  width: 500px;
+}
+#cartier {
+  height: 300px;
+  width: 240px;
+}
+#grid_jewe {
+  display: grid;
+  grid-template-areas:
+    "lv rolex"
+    "duffle cartier";
+  text-align: center;
+}

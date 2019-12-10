@@ -6,3 +6,41 @@ h1 {
   font-family: "Dirty Ego";
   font-size: 100px;
 }
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
+#inertia {
+  height: 600px;
+  width: 500px;
+  margin-right: -200px;
+}
+#mauve {
+  height: 1300px;
+  width: 500px;
+}
+#sneaks {
+  height: 400px;
+  width: 400px;
+  margin-top: -490px;
+}
+#shatter {
+  height: 300px;
+  width: 400px;
+  text-align: top;
+  margin-left: -200px;
+}
+.grid_shoes1 {
+  display: grid;
+  width: 700px;
+  margin: auto;
+  grid-template-areas: "inertia mauve";
+}
+.grid_shoes2 {
+  margin-top: -300px;
+  margin-left: 360px;
+  display: grid;
+  width: 700px;
+  grid-template-areas: "sneaks shatter";
+}
